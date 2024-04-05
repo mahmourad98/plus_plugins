@@ -6,10 +6,10 @@ repository: https://github.com/fluttercommunity/plus_plugins/tree/main/packages/
 issue_tracker: https://github.com/fluttercommunity/plus_plugins/labels/connectivity_plus
 
 environment:
-  sdk: ">=3.2.0 <4.0.0"
+  sdk: ">=3.0.0"
   # Flutter versions prior to 3.7 did not support the
   # sharedDarwinSource option.
-  flutter: ">=3.7.0"
+  flutter: ">=3.10.0"
 
 flutter:
   plugin:
@@ -20,7 +20,7 @@ flutter:
       ios:
         pluginClass: ConnectivityPlusPlugin
         sharedDarwinSource: true
-      
+
       linux:
         dartPluginClass: ConnectivityPlusLinuxPlugin
       macos:
